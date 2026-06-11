@@ -5,7 +5,7 @@ metadata:
   description: Otmoic LP
   icon: https://app.cdn.olares.com/appstore/obridgelpnode/icon.png
   appid: otmoiclp
-  version: "2.5.6"
+  version: "2.5.17"
   title: Otmoic LP
   categories:
   - Lifestyle
@@ -122,6 +122,7 @@ options:
       oneTime: false
       validDuration: 3600s
       entranceName: traefik
+  allowMultipleInstall: true
 entrances:
 - name: traefik
   port: 8001
